@@ -173,7 +173,7 @@
             }
 
             let params = activeIds.map((id, index) => `${index + 1}: ${id}`).join("\n"); // Формируем список активных элементов в консоль
-            let fullUrl = `https://toom-susy.github.io/sound.github.io/prank?url=${encodeURIComponent(urlInput)}&` +
+            let fullUrl = `https://toom-tym.github.io/sound.github.io/prank?url=${encodeURIComponent(urlInput)}&` +
                         activeIds.map(id => `${id.split('-')[0]}=${id}`).join("&"); // Формируем ссылку
 
             document.getElementById("resultText").innerHTML = fullUrl;
